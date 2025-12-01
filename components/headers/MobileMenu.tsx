@@ -121,14 +121,6 @@ export default function MobileMenu() {
           <div className="mxd-menu__inner">
             {/* left side */}
             <div className="mxd-menu__left">
-              <p
-                className="mxd-menu__caption fade-in-elm"
-                style={{ transitionDelay: "0.4s" }}
-              >
-                🦄 Innovative design
-                <br />
-                and cutting-edge development
-              </p>
               <div className="main-menu">
                 <nav className="main-menu__content">
                   <ul id="main-menu" className="main-menu__accordion">
@@ -212,14 +204,6 @@ export default function MobileMenu() {
             <div className="mxd-menu__right">
               <div className="menu-promo">
                 <div className="menu-promo__content">
-                  <p
-                    className="menu-promo__caption fade-in-elm"
-                    style={{ transitionDelay: "0.4s" }}
-                  >
-                    👋 New Rayo template is here!
-                    <br />
-                    Showcase your projects, services and expertise with impact.
-                  </p>
                   <div
                     className="menu-promo__video fade-in-up-elm"
                     style={{ transitionDelay: "0.3s" }}
@@ -249,26 +233,6 @@ export default function MobileMenu() {
                   </div>
                 </div>
               </div>
-            </div>
-            {/* data bottom line */}
-            <div
-              className="mxd-menu__data fade-in-up-elm"
-              style={{ transitionDelay: "0.4s" }}
-            >
-              <p className="t-xsmall">
-                Made with <i className="ph-fill ph-heart t-additional" /> by{" "}
-                <a
-                  className="no-effect"
-                  href="https://themeforest.net/user/ib-themes/portfolio"
-                  target="_blank"
-                >
-                  ib themes
-                </a>
-              </p>
-              <p className="t-xsmall">
-                <i className="ph ph-copyright" />
-                2025
-              </p>
             </div>
           </div>
           <div className="hamburger__parking-slot" />

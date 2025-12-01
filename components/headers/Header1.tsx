@@ -22,7 +22,7 @@ export default function Header1() {
     <header id="header" className={`mxd-header ${isHidden ? "is-hidden" : ""}`}>
       {/* header logo */}
       <div className="mxd-header__logo loading__fade">
-        <Link href={`/home-main`} className="mxd-logo">
+        <Link href="/" className="mxd-logo">
           {/* logo icon */}
           <svg
             className="mxd-logo__image"
@@ -83,11 +83,7 @@ export default function Header1() {
             </g>
           </svg>
           {/* logo text */}
-          <span className="mxd-logo__text">
-            rayo
-            <br />
-            template
-          </span>
+          <span className="mxd-logo__text">Digital Knights</span>
         </Link>
       </div>
       {/* header controls */}

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
 };
-export default function PreviewPage() {
+export default function DigitalKnights() {
   return (
     <>
       <main id="mxd-page-content" className="mxd-page-content">
