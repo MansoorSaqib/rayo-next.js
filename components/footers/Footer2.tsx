@@ -4,14 +4,18 @@ import socials from "@/data/socials.json";
 import AnimatedButton from "../animation/AnimatedButton";
 import SubscribeForm from "./SubscribeForm";
 
-export default function Footer2({ text = "rayosttudio" }: { text?: string }) {
+export default function Footer2({
+  text = "digitalknights",
+}: {
+  text?: string;
+}) {
   return (
     <footer id="mxd-footer" className="mxd-footer">
       {/* Footer Block - Fullwidth Text Start */}
       <div className="mxd-footer__text-wrap">
         <div className="fullwidth-text__tl-trigger" />
         <div className="mxd-footer__fullwidth-text anim-top-to-bottom">
-          {text == "rayosttudio" ? (
+          {text == "digitalknights" ? (
             <svg
               className="mxd-footer__svg-v2"
               version="1.1"
