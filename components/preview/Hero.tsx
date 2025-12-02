@@ -2,6 +2,8 @@ import Image from "next/image";
 
 import VelocityMarquee from "../animation/VelocityMarquee";
 import RevealText from "../animation/RevealText";
+import AnimatedButton from "../animation/AnimatedButton";
+import knight from "@/app/assets/knight.png";
 
 export default function Hero() {
   return (
@@ -19,7 +21,7 @@ export default function Hero() {
                     alt="Hero Image"
                     width={700}
                     height={687}
-                    src="/img/hero/01_hero-img.webp"
+                    src={knight}
                   />
                 </div>
                 <div className="hero-00-image image-02 mxd-floating-img__item loading__fade">
@@ -28,7 +30,7 @@ export default function Hero() {
                     alt="Hero Image"
                     width={700}
                     height={798}
-                    src="/img/hero/02_hero-img.webp"
+                    src={knight}
                   />
                 </div>
               </div>
@@ -44,7 +46,7 @@ export default function Hero() {
                       key={index}
                       className="marquee__item item-regular text"
                     >
-                      <p>your work</p>
+                      <p>Stand Out</p>
                       <svg
                         version="1.1"
                         xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +65,6 @@ export default function Hero() {
                       "
                         />
                       </svg>
-                      {/* <Image class="inject-me" src="/img/icons/20x20-rayo-star.svg" alt="Divider Icon"> */}
                     </div>
                   ))}
                 </VelocityMarquee>
@@ -71,23 +72,10 @@ export default function Hero() {
               {/* title text */}
               <h1 className="hero-00-title">
                 <span className="hero-00-title__row loading__item">
-                  <em className="hero-00-title__item">Make</em>
+                  <em className="hero-00-title__item">Built to </em>
                   <em className="hero-00-title__item title-item-transparent">
-                    your work
+                    Stand Out
                   </em>
-                </span>
-                <span className="hero-00-title__row loading__item">
-                  <em className="hero-00-title__item title-item-image">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      version="1.1"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M19.6,9.6h-3.9c-.4,0-1.8-.2-1.8-.2-.6,0-1.1-.2-1.6-.6-.5-.3-.9-.8-1.2-1.2-.3-.4-.4-.9-.5-1.4,0,0,0-1.1-.2-1.5V.4c0-.2-.2-.4-.4-.4s-.4.2-.4.4v4.4c0,.4-.2,1.5-.2,1.5,0,.5-.2,1-.5,1.4-.3.5-.7.9-1.2,1.2s-1,.5-1.6.6c0,0-1.2,0-1.7.2H.4c-.2,0-.4.2-.4.4s.2.4.4.4h4.1c.4,0,1.7.2,1.7.2.6,0,1.1.2,1.6.6.4.3.8.7,1.1,1.1.3.5.5,1,.6,1.6,0,0,0,1.3.2,1.7v4.1c0,.2.2.4.4.4s.4-.2.4-.4v-4.1c0-.4.2-1.7.2-1.7,0-.6.2-1.1.6-1.6.3-.4.7-.8,1.1-1.1.5-.3,1-.5,1.6-.6,0,0,1.3,0,1.8-.2h3.9c.2,0,.4-.2.4-.4s-.2-.4-.4-.4h0Z" />
-                    </svg>
-                    {/* <img class="inject-me" src="/img/icons/20x20-rayo-star.svg" alt="Divider Icon"> */}
-                  </em>
-                  <em className="hero-00-title__item">stand out</em>
                 </span>
               </h1>
             </div>
@@ -100,9 +88,19 @@ export default function Hero() {
                 as="p"
                 className="mxd-manifest reveal-type anim-uni-in-up"
               >
-                Elevate your digital presence with Rayo - dynamic and stylish
-                template designed for creative agencies and personal brands.
+                A next-generation sci-fi universe where color, identity, and
+                craftsmanship define every Knight.
               </RevealText>
+            </div>
+            <div className="mxd-hero-cta">
+              <AnimatedButton
+                text="Follow Our Journey"
+                className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
+                href="https://themeforest.net/user/ib-themes/portfolio"
+                target="_blank"
+              >
+                <i className="ph-bold ph-notification" />
+              </AnimatedButton>
             </div>
           </div>
         </div>

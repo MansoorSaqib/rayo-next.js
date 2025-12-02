@@ -1,15 +1,14 @@
-import PreviewPage from "./preview/page";
+import DigitalKnights from "./boot/page";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title:
-    "Preview || Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+  title: "Digital Knights",
   description:
     "Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
 };
 export default function Home() {
   return (
     <>
-      <PreviewPage />
+      <DigitalKnights />
     </>
   );
 }

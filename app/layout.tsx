@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 const setColorSchemeScript = `
 (function() {
   try {
-    var scheme = localStorage.getItem('color-scheme') || 'light';
-    document.documentElement.setAttribute('color-scheme', scheme);
+    document.documentElement.setAttribute('color-scheme', 'dark');
+    localStorage.setItem('color-scheme', 'dark');
   } catch(e) {}
 })();
 `;

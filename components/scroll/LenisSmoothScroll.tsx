@@ -42,9 +42,19 @@ export default function LenisSmoothScroll() {
 
     // Centralized refresh handler for all animations
     const handleRefresh = () => {
+      // Avoid running in non-browser / insecure contexts
+      if (typeof window === "undefined") return;
+
       // Small delay to ensure all components are ready
       setTimeout(() => {
-        ScrollTrigger.refresh();
+        try {
+          ScrollTrigger.refresh();
+        } catch (e) {
+          // In some browsers/environments (iframes, strict privacy),
+          // ScrollTrigger.refresh can throw "The operation is insecure".
+          // Swallow it to avoid breaking the app; animations just won't refresh.
+          console.warn("ScrollTrigger.refresh() failed", e);
+        }
       }, 100);
     };
 
