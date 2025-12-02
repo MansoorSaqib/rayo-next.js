@@ -17,7 +17,6 @@ export default function MobileMenu() {
   const [isActive, setIsActive] = useState(false);
   const [activeSubmenu, setActiveSubmenu] = useState(-1);
   const submenuRefs = useRef<(HTMLUListElement | null)[]>([]);
-  // refs for the two *containers* the element will move between
   const hamburgerBtnRef = useRef<HTMLAnchorElement | null>(null); // .mxd-nav__hamburger
   const menuContainRef = useRef<HTMLDivElement | null>(null); // .mxd-menu__contain
 

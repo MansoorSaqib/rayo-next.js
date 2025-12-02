@@ -13,8 +13,7 @@ import Cta from "@/components/preview/Cta";
 import Footer1 from "@/components/footers/Footer1";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title:
-    "Preview || Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+  title: "Digital Knights",
   description:
     "Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
 };
