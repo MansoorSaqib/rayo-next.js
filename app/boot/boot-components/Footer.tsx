@@ -216,65 +216,6 @@ export default function Footer() {
                   </div>
                 </nav>
               </div>
-              <div className="col-12 col-xl-3 mxd-demo-footer__item mxd-grid-item">
-                <div className="mxd-demo-footer__promo">
-                  <div className="mxd-footer-promo__title anim-uni-in-up">
-                    <p className="t-140 t-bright t-caption">
-                      More by ib-themes:
-                    </p>
-                  </div>
-                  <div className="mxd-footer-promo__list">
-                    <a
-                      className="mxd-footer-promo__item"
-                      href="https://themeforest.net/item/resonance-multipurpose-onemulti-page-react-nextjs-template/53612924"
-                      target="_blank"
-                    >
-                      <Image
-                        className="mxd-footer-promo__icon anim-uni-in-up"
-                        alt="Blayden - Personal Portfolio & Resume React Nextjs Template"
-                        width={180}
-                        height={180}
-                        src="/img/demo/icon-blayden.png"
-                      />
-                      <span className="mxd-footer-promo__link anim-uni-in-up">
-                        Resonance - Multipurpose Creative NextJs Templates
-                      </span>
-                    </a>
-                    <a
-                      className="mxd-footer-promo__item"
-                      href="https://themeforest.net/item/sandbox-modern-multipurpose-tailwind-css-template/51340309"
-                      target="_blank"
-                    >
-                      <Image
-                        className="mxd-footer-promo__icon anim-uni-in-up"
-                        alt="Ignite - Portfolio and Landing Page Template"
-                        width={180}
-                        height={180}
-                        src="/img/demo/icon-ignite.png"
-                      />
-                      <span className="mxd-footer-promo__link anim-uni-in-up">
-                        Sandbox - Tailwind CSS Modern & Multipurpose Template
-                      </span>
-                    </a>
-                    <a
-                      className="mxd-footer-promo__item"
-                      href="https://themeforest.net/item/gotrip-travel-tour-online-booking-nextjs-template/44047013"
-                      target="_blank"
-                    >
-                      <Image
-                        className="mxd-footer-promo__icon anim-uni-in-up"
-                        alt="Braxton - Personal Portfolio & Resume React Nextjs Template"
-                        width={500}
-                        height={500}
-                        src="/img/demo/icon-braxton.png"
-                      />
-                      <span className="mxd-footer-promo__link anim-uni-in-up">
-                        GoTrip - Travel & Tour Agency React NextJs Template
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

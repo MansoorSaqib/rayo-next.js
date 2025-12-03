@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 export default function Header1() {
-  const pathname = usePathname();
   const [isHidden, setIsHidden] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -22,7 +21,7 @@ export default function Header1() {
       <div className="mxd-header__logo loading__fade">
         <Link href="/" className="mxd-logo">
           {/* logo icon */}
-          <svg
+          {/* <svg
             className="mxd-logo__image"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +78,7 @@ export default function Header1() {
           c0-0.5-0.4-0.9-0.9-0.9h-0.9c-0.5,0-0.9-0.4-0.9-0.9v-0.9c0-0.5,0.4-0.9,0.9-0.9h0.9C49,40.1,49.5,39.7,49.5,39.2L49.5,39.2z"
               />
             </g>
-          </svg>
+          </svg> */}
           {/* logo text */}
           <span className="mxd-logo__text">Digital Knights</span>
         </Link>
