@@ -1,4 +1,4 @@
-// import Demos from "@/components/preview/Demos";
+import Demos from "@/components/preview/Demos";
 
 // import BlogPages from "@/components/preview/BlogPages";
 // import Features from "@/components/preview/Features";

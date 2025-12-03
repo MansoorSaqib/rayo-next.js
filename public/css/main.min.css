@@ -2802,6 +2802,35 @@ p.t-semibold {
   border-color: var(--base);
   color: var(--t-bright);
 }
+.gradient-text {
+  background: linear-gradient(90deg, #1da1f2, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-lava-chrome {
+  background: linear-gradient(90deg, #ff7e00, #ff4c00, #8b0000, #2e2e2e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-lava-chrome-dark {
+  background: linear-gradient(90deg, #ff9b3c, #ff4c00, #b22222, #2e2e2e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-rusty {
+  background: linear-gradient(90deg, #d2691e, #a0522d, #8b4513);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
 .btn-permanent {
   background-color: var(--pt-base);
   border-style: solid;
